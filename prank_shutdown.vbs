@@ -10,4 +10,4 @@ WScript.Sleep 2000
 
 ' Chama o script .bat para reiniciar o PC
 Set objShell = CreateObject("WScript.Shell")
-objShell.Run "shutdown.exe /r /t 0"
+' objShell.Run "shutdown.exe /r /t 0"
