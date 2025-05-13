@@ -9,4 +9,4 @@ echo a=MsgBox("Vírus In#t@lAd0, R3in1Nc!Am3Nt0 Ne$cEsS4RIo Im3Dia7AMent3", 0+64
 cscript //nologo virus.vbs
 del virus.vbs
 
-rundll32.exe powrprof.dll,SetSuspendState 0,1,0
+@REM rundll32.exe powrprof.dll,SetSuspendState 0,1,0
