@@ -5,11 +5,11 @@ title Instalador de Vírus - Pc H4cK3D
 echo.
 echo Instalando vírus... Aguarde.
 echo.
-ping localhost -n 5 > nul
+ping localhost -n 1 > nul
 echo Verificando arquivos...
-ping localhost -n 5 > nul
+ping localhost -n 1 > nul
 echo Instalando...
-ping localhost -n 5 > nul
+ping localhost -n 1 > nul
 
 :: Criando o arquivo temporário do VBScript
 echo Set objArgs = WScript.Arguments > virus.vbs
@@ -28,10 +28,10 @@ del virus.vbs
 :: Mensagens falsas e erro
 echo.
 echo [Erro] Ocorreu um erro crítico no sistema...
-ping localhost -n 3 > nul
+ping localhost -n 1 > nul
 echo [Erro] O PC foi comprometido...
-ping localhost -n 3 > nul
+ping localhost -n 2 > nul
 
 :: Suspende o computador
 
-rundll32.exe powrprof.dll,SetSuspendState 0,1,0
+@REM rundll32.exe powrprof.dll,SetSuspendState 0,1,0
